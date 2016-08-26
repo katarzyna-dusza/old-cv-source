@@ -1,0 +1,272 @@
+.browsehappy {
+  margin: 0.2em 0;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background: white;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+.welcome-page {
+  font-family: "Josefin Sans";
+  background: url("../images/background.png") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  color: #ddd;
+  overflow-x: hidden;
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  &__text {
+    padding-top: 10%;
+  }
+
+  &__read-more {
+    text-align: center;
+    width: 100%;
+    color: #ddd;
+    padding-top: 200px;
+    cursor: pointer;
+
+    .arrow {
+      text-align: center;
+      vertical-align: text-top;
+      cursor: pointer;
+    }
+  }
+
+  &__other-pages {
+    text-align: center;
+    width: 100%;
+    color: #ddd;
+    padding-top: 50px;
+
+    .circle {
+      border: 2px solid #ddd;
+      border-radius: 50px;
+      width: 60px;
+      height: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 7px;
+      cursor: pointer;
+
+      &--left {
+        float: left;
+      }
+
+      &--right {
+        float: right;
+      }
+
+      a {
+        color: #ddd;
+      }
+    }
+  }
+
+  .scroll {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    opacity: 0.3;
+    visibility: hidden;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+}
+
+.welcome-page:after{
+  position: fixed;
+  content: "";
+  background:rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+.hide-element {
+  opacity: 0;
+}
+
+@media screen and (min-width: 740px) and (max-width: 768px) {
+  .welcome-page {
+    &__text {
+      padding-top: 20%;
+    }
+
+    &__read-more {
+      padding-top: 400px;
+    }
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 738px) {
+  .welcome-page {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    &__text {
+      padding-top: 5%;
+    }
+
+    &__read-more {
+      padding-top: 15%;
+    }
+
+    &__other-pages {
+      padding-top: 20px;
+    }
+
+    .scroll {
+      bottom: 20px;
+    }
+  }
+}
+@media screen and (min-width: 580px) and (max-width: 649px) {
+  .welcome-page {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    &__text {
+      padding-top: 5%;
+    }
+
+    &__read-more {
+      padding-top: 20%;
+    }
+
+    &__other-pages {
+      padding-top: 20px;
+    }
+
+    .scroll {
+      bottom: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 579px) {
+  .welcome-page {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    &__text {
+      padding-top: 5%;
+    }
+
+    &__read-more {
+      padding-top: 5%;
+    }
+
+    &__other-pages {
+     display: none;
+    }
+
+    .scroll {
+      bottom: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 549px) {
+  .welcome-page {
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    &__text {
+      padding-top: 30%;
+    }
+
+    &__read-more {
+      padding-top: 250px;
+    }
+
+    .scroll {
+      bottom: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 410px) {
+  .welcome-page {
+    background: url("../images/background-small.png") no-repeat center center fixed;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    &__text {
+      padding-top: 30%;
+    }
+
+    &__read-more {
+      padding-top: 250px;
+    }
+
+    .scroll {
+      bottom: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 349px) {
+  .welcome-page {
+    background: url("../images/background-small.png") no-repeat center center fixed;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    h3 {
+      font-size: 15px;
+    }
+
+    &__text {
+      padding-top: 20%;
+    }
+
+    .scroll {
+      bottom: 20px;
+    }
+  }
+}
+
