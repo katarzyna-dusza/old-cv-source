@@ -1,12 +1,19 @@
-# cv
+# CV
+
+This a source code of my CV available at: [katarzyna-dusza.github.io](https://katarzyna-dusza.github.io)
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
-## Build & development
+## Running locally
 
-Run `grunt` for building and `grunt serve` for preview.
+At first, clone the project to your local environment.
+Then install all bower and npm dependencies:
+```
+npm install
+bower install
+```
 
-## Testing
+The above commands should create **bower_components** and **node_modules** directories.
 
-Running `grunt test` will run the unit tests with karma.
+At the end run `grunt serve` in order to view the CV.
