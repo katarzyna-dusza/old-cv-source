@@ -29,6 +29,20 @@
   text-align: center;
 }
 
+@media screen and (min-width: 1500px) {
+  .skills {
+    height: 1000px;
+    padding-top: 5%;
+  }
+
+  .title {
+    &--circle {
+      width: 200px;
+      margin-left: 20%;
+    }
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .skills {
     height: 650px;

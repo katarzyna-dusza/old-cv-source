@@ -93,6 +93,20 @@
   margin-right: auto;
 }
 
+@media screen and (min-width: 1500px) {
+  .about-me {
+    &__description {
+      height: 450px;
+    }
+
+    &__picture {
+      .contact-details {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .about-me {
     width: 80%;
