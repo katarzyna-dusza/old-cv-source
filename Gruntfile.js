@@ -317,7 +317,7 @@ module.exports = function (grunt) {
        }
      },
      uglify: {
-      dist: { 
+      dist: {
        files: [{
           expand: true,
           cwd: 'app/scripts',
@@ -426,6 +426,11 @@ module.exports = function (grunt) {
           cwd: '.',
           src: 'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
           dest: '<%= yeoman.dist %>'
+        }, {
+          expand: true,
+          cwd: 'app/pdfs',
+          dest: '<%= yeoman.dist %>/pdfs',
+          src: '*.pdf'
         }]
       },
       styles: {
