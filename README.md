@@ -1,6 +1,6 @@
 # CV
 
-This a source code of my CV available at: [katarzyna-dusza.github.io](https://katarzyna-dusza.github.io)
+This is a source code of my CV available at: [katarzyna-dusza.github.io](https://katarzyna-dusza.github.io)
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
